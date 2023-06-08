@@ -1,0 +1,25 @@
+class Member01{
+	/*
+	 * 1. class 키워드로 클래스명 Member01을 정의
+	 * 2. 클래스명 첫글자는 관례적으로 영문대문자로 한다.
+	 * 3. 
+	 */
+	String name;
+	int age;
+	
+}
+public class Test02 {
+
+	public static void main(String[] args) {
+		Member01 men = new Member01();
+		men.name = "홍길동";
+		men.age = 26;
+		System.out.print("이름:"+men.name);
+		System.out.print("이름:"+men.age);
+		/*1.System.out은 모니터 출력장치
+		 * 2.print()는 출력하라는 메서드  ,ln은 줄바꿈
+		 * 3.;은 한문장 끝을 의미함. + 는 문자열 연산 기호
+		 */
+	}
+
+}

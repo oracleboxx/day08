@@ -1,0 +1,39 @@
+/*1.메소드 오버로딩이란
+ * 메서드 오버로딩이란 한 클래스 내에 같은 이름의 메서
+	드를 여러 개 정의하는 것을 뜻한다.
+ * 동일 메서드 오버로딩 구분요건
+ * 1.매게 변수 자료형을 다르게한다
+ * 2.매게 변수 개수를 다르게한다
+ * 3.매게 변수 순서를 다르게한다.
+ * 
+ * 
+ */
+class Mt04{
+	int abs(int data) {
+		if(data<0) {
+			data= -data;
+			
+		}
+		return data;
+	}
+		double abs(double data) {
+			if(data<0) {
+				data= -data;
+				
+			}
+			return data;
+		}
+	}
+
+
+public class Test05 {
+
+	
+	public static void main(String[] args) {
+		Mt04 mt = new Mt04();
+		int result = mt.abs(-100);
+			System.out.println("-100의 절대값="+result);
+		
+	}
+
+}

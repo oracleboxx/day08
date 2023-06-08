@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+class n1{
+	public double abs(double data) {
+		Scanner input = new Scanner(System.in);
+		if(data<0) {
+		 data 
+		}
+		return data;
+	
+		
+	}
+}
+public class Test06 {
+
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

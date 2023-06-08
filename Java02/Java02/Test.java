@@ -1,0 +1,28 @@
+package Java02;
+
+
+	
+		class Thing{
+			private int x ;
+		}
+		public int getput() {
+			return x;
+		}
+
+		 public void setput(int x) {
+			 this.x = x;
+		 }
+		public class Test02 {
+
+			public static void main(String[] args) {
+				Thing thing1=new Thing();
+				
+				thing1.setput(10);
+				System.out.println(thing1.getput());
+			}
+
+		}
+
+	}
+
+}
